@@ -25,9 +25,9 @@ function chatbotResponse() {
 	botMessage = authors.cnt;
 	//add the chatbot's name and message to the array messages
 
+	botMessage = botMessage.replace(", Valiant!",".");
 	botMessage = botMessage.replace("Valiant,","");
 	botMessage = botMessage.replace("  ","");
-	botMessage = botMessage.replace(", Valiant!","");
 	botMessage = botMessage.replace("Valiant","");
 
 
